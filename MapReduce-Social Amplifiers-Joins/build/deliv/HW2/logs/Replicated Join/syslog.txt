@@ -1,0 +1,18 @@
+2020-02-15 03:57:41,778 INFO org.apache.hadoop.yarn.client.RMProxy (main): Connecting to ResourceManager at ip-172-31-87-177.ec2.internal/172.31.87.177:8032
+2020-02-15 03:57:44,643 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat (main): Total input files to process : 1
+2020-02-15 03:57:44,653 INFO com.hadoop.compression.lzo.GPLNativeCodeLoader (main): Loaded native gpl library
+2020-02-15 03:57:44,655 INFO com.hadoop.compression.lzo.LzoCodec (main): Successfully loaded & initialized native-lzo library [hadoop-lzo rev 29dbe82f1ecfd8384b89f1a32e5e2d9e5dfd7724]
+2020-02-15 03:57:45,070 INFO org.apache.hadoop.mapreduce.JobSubmitter (main): number of splits:20
+2020-02-15 03:57:45,236 INFO org.apache.hadoop.mapreduce.JobSubmitter (main): Submitting tokens for job: job_1581738958767_0001
+2020-02-15 03:57:45,953 INFO org.apache.hadoop.yarn.client.api.impl.YarnClientImpl (main): Submitted application application_1581738958767_0001
+2020-02-15 03:57:46,099 INFO org.apache.hadoop.mapreduce.Job (main): The url to track the job: http://ip-172-31-87-177.ec2.internal:20888/proxy/application_1581738958767_0001/
+2020-02-15 03:57:46,112 INFO org.apache.hadoop.mapreduce.Job (main): Running job: job_1581738958767_0001
+2020-02-15 03:57:53,226 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1581738958767_0001 running in uber mode : false
+2020-02-15 03:57:53,228 INFO org.apache.hadoop.mapreduce.Job (main):  map 0% reduce 0%
+2020-02-15 03:57:53,260 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1581738958767_0001 failed with state FAILED due to: Application application_1581738958767_0001 failed 2 times due to AM Container for appattempt_1581738958767_0001_000002 exited with  exitCode: -1000
+Failing this attempt.Diagnostics: java.lang.NullPointerException: BucketName is required
+For more detailed output, check the application tracking page: http://ip-172-31-87-177.ec2.internal:8088/cluster/app/application_1581738958767_0001 Then click on links to logs of each attempt.
+. Failing the application.
+2020-02-15 03:57:53,304 INFO org.apache.hadoop.mapreduce.Job (main): Counters: 0
+2020-02-15 03:57:53,376 INFO wc.RepJoin (main): Total Number of Paths of length 2 in Twitter Graph are :0
+2020-02-15 03:57:53,376 INFO wc.RepJoin (main): Total Number of triangles from Twitter Graph are :0
