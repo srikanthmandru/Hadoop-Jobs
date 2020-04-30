@@ -1,6 +1,6 @@
 
 
-Hadoop MapReduce PageRank code for CS6240 - Spring 2020 - HW4
+Hadoop/MapReduce PageRank algorithm code
 
 Code author
 -----------
@@ -34,20 +34,4 @@ Also, download and put the input file in the 'input' folder.
 Input:
 -------------------------
 For input, Create "input" directory and place the dataset into that directory for execution
-
-
-
-Log files description:
--------------------------
-Log files are provided in "HW4/mapreduce_logs/" directory. 
-
-Report file :
--------------------------
-Report is placed at "HW4/Srikanth_Mandru_HW4.pdf"
-
-
-Output file description:
--------------------------
-Output files are placed at "HW4/mapreduce_outputs/" directory
-
 

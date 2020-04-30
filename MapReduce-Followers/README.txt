@@ -1,6 +1,6 @@
 
 
-Hadoop MapReduce Twitter-follower count code for CS6240 - Spring 2020
+Hadoop MapReduce Twitter-follower count code
 
 Code author
 -----------
@@ -30,8 +30,3 @@ Also, download and put the input file in the 'input' folder.
 }
 
 
-
-
-Output file description:
--------------------------
-For the output files, I just included the first 1000 records of the first reducer output file as 'part-r-00000-head' in output-# directories of output folder (# - represents the run number).
